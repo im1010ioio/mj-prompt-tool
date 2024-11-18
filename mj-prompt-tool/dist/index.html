@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <script type="module" crossorigin src="./assets/index-DgfUMcsc.js"></script>
+    <title>Midjourney Prompt Tool</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="icon" href="./favicon.ico">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
+  <script type="module" crossorigin src="./assets/index-BgMv02yh.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-tdU_rdzS.css">
 </head>
 <body>
     <div id="app">
-        {{test}}
-        <!-- 渲染每個分組 -->
-        <div v-for="(group, key) in styles" :key="key" class="style-group">
-            <h2>{{ key }}</h2>
-            <!-- 渲染每個分組中的項目 -->
+        <div class="col-style">
+            <select @change="loadStyles(selectedStyle)" v-model="selectedStyle">
+                <option value="style">風格</option>
+                <option value="camera">相機</option>
+            </select>
             <ul>
-                <li v-for="(item, index) in group" :key="index">
-                    <strong>{{ item.name }}</strong> ({{ item.prompt }})
+                <li v-for="(group, key) in styles">
+                    <a :href="'#' + key">{{ key }}</a>
                 </li>
             </ul>
+        </div>
+        <div class="col-items scrollable">
+            <div :id="key" v-for="(group, key) in styles" :key="key" class="style-group">
+                <h2>{{ key }}</h2>
+                <ul class="list-card">
+                    <li v-for="(item, index) in group" :key="index"
+                        :style="`background-image: url(./data/style/${item.id}.png);`"
+                        @click="addPrompt(item.prompt)">
+                        <span>{{ item.id }} <strong>{{ item.name }}</strong> ({{ item.prompt }})</span>
+                        <div>
+                            <small>{{ item.description }}</small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-textarea scrollable">
+            <div class="d-flex">
+                <h2>Prompt</h2>
+                <button class="btn-cancel" type="button" @click="clearPrompt">Clear Prompt</button>
+            </div>
+            <textarea>{{finalPrompt}}</textarea>
         </div>
     </div>
 </body>
