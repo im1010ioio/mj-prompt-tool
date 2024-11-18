@@ -27,5 +27,8 @@ export default defineConfig({
         autoprefixer()
       ]
     }
+  },
+  build: {
+    outDir: 'dist'
   }
 })
