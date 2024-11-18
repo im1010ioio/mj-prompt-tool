@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script type="module" crossorigin src="/assets/index-DOmUup7d.js"></script>
+</head>
+<body>
+    <div id="app">
+        {{test}}
+        <!-- 渲染每個分組 -->
+        <div v-for="(group, key) in styles" :key="key" class="style-group">
+            <h2>{{ key }}</h2>
+            <!-- 渲染每個分組中的項目 -->
+            <ul>
+                <li v-for="(item, index) in group" :key="index">
+                    <strong>{{ item.name }}</strong> ({{ item.prompt }})
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
