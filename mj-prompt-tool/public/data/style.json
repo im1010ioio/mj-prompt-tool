@@ -1,664 +1,822 @@
 {
     "文學作家": [
         {
+            "id": "1",
             "prompt": "H.P. Lovecraft",
             "name": "洛夫克拉夫特",
             "description": "古典恐怖文學家、夢境與恐怖"
         },
         {
+            "id": "2",
             "prompt": "Cthulhu Mythos",
             "name": "克蘇魯神話",
             "description": "洛夫克拉夫特的經典著作"
         },
         {
+            "id": "3",
             "prompt": "John Ronald Reuel Tolkien",
             "name": "約翰·羅納德·魯埃爾·托爾金",
             "description": "魔戒原作作者"
         },
         {
+            "id": "4",
             "prompt": "Mary Shelley",
             "name": "瑪莉雪萊",
             "description": "科學怪人原作者"
         },
         {
+            "id": "5",
             "prompt": "Frank Herbert",
             "name": "法蘭克·赫伯特",
             "description": "沙丘原作者"
         },
         {
+            "id": "6",
             "prompt": "H.G. Wells",
             "name": "H.G.威爾斯",
             "description": "史上最有影響力的科幻小說家"
         },
         {
+            "id": "7",
             "prompt": "Isaac Asimov",
             "name": "艾西莫夫",
             "description": "基地原作者"
         },
         {
+            "id": "8",
             "prompt": "Jules Verne",
             "name": "凡爾納",
             "description": "海底兩萬哩原作"
         },
         {
+            "id": "9",
             "prompt": "William Gibson",
             "name": "威廉‧吉布森",
             "description": "神經喚術士原作作者，Cyberpunk經典"
         },
         {
+            "id": "10",
             "prompt": "Harlan Ellison",
             "name": "哈蘭‧艾里森",
             "description": "危險幻覺原作者"
         },
         {
+            "id": "11",
             "prompt": "Paolo Bacigalupi",
             "name": "保羅‧巴奇加盧比",
             "description": "曼谷的發條女孩"
         },
         {
+            "id": "12",
             "prompt": "Stephen King",
             "name": "史蒂芬金",
             "description": "知名恐怖小說作家"
         }
     ],
-    "表現手法與風格": [
+    "作品形式": [
         {
+            "id": "13",
             "prompt": "High-Tension Brush Work",
             "name": "高張力筆刷作品"
         },
         {
+            "id": "14",
             "prompt": "photograph",
             "name": "照片"
         },
         {
+            "id": "15",
             "prompt": "photorealism",
             "name": "照片寫實主義"
         },
         {
+            "id": "16",
             "prompt": "photography",
             "name": "攝影"
         },
         {
+            "id": "17",
             "prompt": "monotone",
             "name": "單色調、黑白"
         },
         {
+            "id": "18",
             "prompt": "black and white",
             "name": "黑白"
         },
         {
+            "id": "19",
             "prompt": "Epic film style",
             "name": "史詩電影風格"
         },
         {
+            "id": "20",
             "prompt": "film photography style",
             "name": "電影攝影風格"
         },
         {
+            "id": "21",
             "prompt": "aerial perspective",
             "name": "空氣遠近法"
         },
         {
+            "id": "22",
             "prompt": "hyper-realistic sci-fi",
             "name": "超現實科幻"
         },
         {
+            "id": "23",
             "prompt": "Atompunk",
             "name": "原子龐克"
         },
         {
+            "id": "24",
             "prompt": "dieselpunk",
             "name": "柴油龐克"
         },
         {
+            "id": "25",
             "prompt": "cyberpunk",
             "name": "賽博龐克"
         },
         {
+            "id": "26",
             "prompt": "Postcyberpunk",
             "name": "後賽博龐克"
         },
         {
+            "id": "27",
             "prompt": "Technologicalpunk",
             "name": "技術性龐克"
         },
         {
+            "id": "28",
             "prompt": "minimalist illustrator",
             "name": "極簡主義插畫"
         },
         {
+            "id": "29",
             "prompt": "minimalist",
             "name": "極簡主義"
         },
         {
+            "id": "30",
             "prompt": "maximalism",
             "name": "極繁主義"
         },
         {
+            "id": "31",
             "prompt": "sophisticated",
             "name": "複雜的"
         },
         {
+            "id": "32",
             "prompt": "simplicity",
             "name": "簡單的"
         },
         {
+            "id": "33",
             "prompt": "Fashion style",
             "name": "時尚風格"
         },
         {
+            "id": "34",
             "prompt": "Retro",
             "name": "復古的"
         },
         {
+            "id": "35",
             "prompt": "Surreal",
             "name": "超現實的"
         },
         {
+            "id": "36",
             "prompt": "french art style",
             "name": "法國藝術"
         },
         {
+            "id": "37",
             "prompt": "Bauhaus style",
             "name": "包浩斯"
         },
         {
+            "id": "38",
             "prompt": "Op art",
             "name": "視錯覺藝術"
         },
         {
+            "id": "39",
             "prompt": "psychedelic",
             "name": "迷幻"
         },
         {
+            "id": "40",
             "prompt": "partial anatomy",
             "name": "局部解剖"
         },
         {
+            "id": "41",
             "prompt": "complex",
             "name": "複雜混亂，由許多複雜卻相關的物件所構成"
         }
     ],
-    "表現手法與風格2": [
+    "表現手法": [
         {
+            "id": "42",
             "prompt": "chicano art",
             "name": "奇卡諾藝術"
         },
         {
+            "id": "43",
             "prompt": "illustration",
             "name": "插畫"
         },
         {
+            "id": "44",
             "prompt": "Coloring book",
             "name": "著色本"
         },
         {
+            "id": "45",
             "prompt": "anime style",
             "name": "動漫風格"
         },
         {
+            "id": "46",
             "prompt": "Vector",
             "name": "向量圖"
         },
         {
+            "id": "47",
             "prompt": "oil painting",
             "name": "油畫"
         },
         {
+            "id": "48",
             "prompt": "watercolor",
             "name": "水彩"
         },
         {
+            "id": "49",
             "prompt": "Line drawing",
             "name": "線稿"
         },
         {
+            "id": "50",
             "prompt": "Pastel drawing",
             "name": "粉彩素描"
         },
         {
+            "id": "51",
             "prompt": "sketch",
             "name": "素描"
         },
         {
+            "id": "52",
             "prompt": "Charcoal style",
             "name": "炭筆風格"
         },
         {
+            "id": "53",
             "prompt": "ink painting",
             "name": "水墨畫"
         },
         {
+            "id": "54",
             "prompt": "japanese ink painting",
             "name": "日本水墨畫"
         },
         {
+            "id": "55",
             "prompt": "Dripping art",
             "name": "滴水藝術"
         },
         {
+            "id": "56",
             "prompt": "sculpture",
             "name": "雕塑"
         },
         {
+            "id": "57",
             "prompt": "Blockprint",
             "name": "印刷版畫"
         },
         {
+            "id": "58",
             "prompt": "Impasto",
             "name": "油畫厚塗"
         },
         {
+            "id": "59",
             "prompt": "Tradition Chinese Ink Painting style",
             "name": "中國傳統墨水畫風格"
         },
         {
+            "id": "60",
             "prompt": "ink render style",
             "name": "墨水渲染"
         },
         {
+            "id": "61",
             "prompt": "ink illustration",
             "name": "水墨插圖"
         },
         {
+            "id": "62",
             "prompt": "Ethnic Art style",
             "name": "民族藝術"
         },
         {
+            "id": "63",
             "prompt": "Made of Glass",
             "name": "玻璃製成"
         },
         {
+            "id": "64",
             "prompt": "Linocut",
             "name": "剪裁"
         },
         {
+            "id": "65",
             "prompt": "stock illustration style",
             "name": "童話故事書插畫風格"
         },
         {
+            "id": "66",
             "prompt": "Concept art",
             "name": "概念藝術"
         },
         {
+            "id": "67",
             "prompt": "Pop art style",
             "name": "普普藝術風格"
         },
         {
+            "id": "68",
             "prompt": "sketch",
             "name": "草圖"
         },
         {
+            "id": "69",
             "prompt": "one-hour drawing challenge style",
             "name": "一小時速寫"
         },
         {
+            "id": "70",
             "prompt": "Watercolor children's illustration",
             "name": "水彩兒童插畫"
         },
         {
+            "id": "71",
             "prompt": "concept art sketch",
             "name": "概念藝術草圖"
         },
         {
+            "id": "72",
             "prompt": "color ink on paper",
             "name": "彩墨紙本"
         },
         {
+            "id": "73",
             "prompt": "doodle",
             "name": "塗鴉"
         },
         {
+            "id": "74",
             "prompt": "Voynich manuscript",
             "name": "伏尼契手稿"
         },
         {
+            "id": "75",
             "prompt": "book page",
             "name": "書頁"
         },
         {
+            "id": "76",
             "prompt": "architectural sketching",
             "name": "建築草圖"
         },
         {
+            "id": "77",
             "prompt": "weapon design",
             "name": "武器設計"
         }
     ],
-    "表現手法與風格3": [
+    "繪畫風格": [
         {
+            "id": "78",
             "prompt": "Renaissance style",
             "name": "文藝復興"
         },
         {
+            "id": "79",
             "prompt": "Fauvism style",
             "name": "野獸派"
         },
         {
+            "id": "80",
             "prompt": "Cubism style",
             "name": "立體派"
         },
         {
+            "id": "81",
             "prompt": "Abstract Art style",
             "name": "抽象表現主義"
         },
         {
+            "id": "82",
             "prompt": "Surrealism style",
             "name": "超現實主義"
         },
         {
+            "id": "83",
             "prompt": "OP Art style",
             "name": "歐普藝術"
         },
         {
+            "id": "84",
             "prompt": "Optical Art style",
             "name": "光學藝術"
         },
         {
+            "id": "85",
             "prompt": "Victorian style",
             "name": "維多利亞時代"
         },
         {
+            "id": "86",
             "prompt": "futuristic style",
             "name": "未來主義"
         },
         {
+            "id": "87",
             "prompt": "Minimalist style",
             "name": "極簡主義"
         },
         {
+            "id": "88",
             "prompt": "brutalist style",
             "name": "粗獷主義"
         },
         {
+            "id": "89",
             "prompt": "Constructivist style",
             "name": "建構主義"
         },
         {
+            "id": "90",
             "prompt": "hyperrealism",
             "name": "超寫實主義"
         },
         {
+            "id": "91",
             "prompt": "Unity Creations",
             "name": "統一創作"
         },
         {
+            "id": "92",
             "prompt": "Baroque style",
             "name": "巴洛克時期"
         },
         {
+            "id": "93",
             "prompt": "Impressionism style",
             "name": "印象派"
         },
         {
+            "id": "94",
             "prompt": "Art Nouveau style",
             "name": "新藝術風格"
         },
         {
+            "id": "95",
             "prompt": "Paper quilling",
             "name": "紙雕藝術"
         },
         {
+            "id": "96",
             "prompt": "Paper cut craft",
             "name": "剪紙"
         },
         {
+            "id": "97",
             "prompt": "Origami",
             "name": "摺紙"
         },
         {
+            "id": "98",
             "prompt": "Rococo style",
             "name": "洛可可"
         },
         {
+            "id": "99",
             "prompt": "Marble statue",
             "name": "大理石雕像"
         },
         {
+            "id": "100",
             "prompt": "Ornamental",
             "name": "裝飾性的古典刻花"
         },
         {
+            "id": "101",
             "prompt": "quilted art",
             "name": "絎縫藝術"
         },
         {
+            "id": "102",
             "prompt": "Art Quilt",
             "name": "藝術拼布"
         },
         {
+            "id": "103",
             "prompt": "origami art",
             "name": "摺紙藝術"
         },
         {
+            "id": "104",
             "prompt": "risograph riso style",
             "name": "網版印刷風格"
         },
         {
+            "id": "105",
             "prompt": "Assemblage art",
             "name": "拼湊藝術"
         },
         {
+            "id": "106",
             "prompt": "Knolling",
             "name": "物體整齊排列"
         }
     ],
-    "表現手法與風格4": [
+    "表現風格": [
         {
+            "id": "107",
             "prompt": "Japanese comics style",
             "name": "日本漫畫風格"
         },
         {
+            "id": "108",
             "prompt": "manuscript",
             "name": "手稿"
         },
         {
+            "id": "109",
             "prompt": "anime frame",
             "name": "動畫外框線"
         },
         {
+            "id": "110",
             "prompt": "Pixel Art",
             "name": "像素畫"
         },
         {
+            "id": "111",
             "prompt": "pop-book",
             "name": "彈跳書"
         },
         {
+            "id": "112",
             "prompt": "concept art style",
             "name": "概念藝術"
         },
         {
+            "id": "113",
             "prompt": "montage style",
             "name": "蒙太奇"
         },
         {
+            "id": "114",
             "prompt": "Vintage style",
             "name": "古典風，18-19世紀"
         },
         {
+            "id": "115",
             "prompt": "Pulp Noir style",
             "name": "黑白電影時期"
         },
         {
+            "id": "116",
             "prompt": "Isometric",
             "name": "等距的（45度與直角構成）"
         },
         {
+            "id": "117",
             "prompt": "Stained glass window",
             "name": "彩色玻璃窗"
         },
         {
+            "id": "118",
             "prompt": "cinematic",
             "name": "電影般的"
         },
         {
+            "id": "119",
             "prompt": "subsurface scattering",
             "name": "次表面散射"
         },
         {
+            "id": "120",
             "prompt": "Graphic style",
             "name": "設計風"
         },
         {
+            "id": "121",
             "prompt": "photoreal",
             "name": "真實感"
         },
         {
+            "id": "122",
             "prompt": "national geographic",
             "name": "國家地理"
         }
     ],
-    "表現手法與風格5": [
+    "日式風格": [
         {
+            "id": "123",
             "prompt": "old Japanese film style",
             "name": "日本舊電影風格"
         },
         {
+            "id": "124",
             "prompt": "poster of japanese graphic design style",
             "name": "日本海報風格"
         },
         {
+            "id": "125",
             "prompt": "Showa era movie posters",
             "name": "昭和時代電影海報"
         },
         {
+            "id": "126",
             "prompt": "Ukiyo-e style",
             "name": "浮世繪"
         },
         {
+            "id": "127",
             "prompt": "90s video game style",
             "name": "90年代電視遊戲"
         },
         {
+            "id": "128",
             "prompt": "manga",
             "name": "漫畫"
         },
         {
+            "id": "129",
             "prompt": "character concept art",
             "name": "角色概念藝術"
         },
         {
+            "id": "130",
             "prompt": "Game scene graph",
             "name": "遊戲場景圖"
         }
     ],
-    "表現手法與風格6": [
+    "電繪風格": [
         {
+            "id": "131",
             "prompt": "CGSociety",
             "name": "電腦CG風格"
         },
         {
+            "id": "132",
             "prompt": "DreamWorks Pictures style",
             "name": "夢工廠影業"
         },
         {
+            "id": "133",
             "prompt": "Pixar style",
             "name": "皮克斯"
         },
         {
+            "id": "134",
             "prompt": "3D Pixar Disney Style",
             "name": "皮克斯迪士尼3D風格"
         },
         {
+            "id": "135",
             "prompt": "3D animation style",
             "name": "3D動畫風格"
         },
         {
+            "id": "136",
             "prompt": "Anime",
             "name": "日本卡通"
         },
         {
+            "id": "137",
             "prompt": "Ghibli Studio",
             "name": "吉卜力風格"
         },
         {
+            "id": "138",
             "prompt": "Miyazaki Hayao style",
             "name": "宮崎駿風格"
         },
         {
+            "id": "139",
             "prompt": "in the form of Claymation",
             "name": "黏土動畫"
         }
     ],
-    "表現手法與風格7": [
+    "濾鏡風格": [
         {
+            "id": "140",
             "prompt": "Country style",
             "name": "鄉村風格"
         },
         {
+            "id": "141",
             "prompt": "Abstract style",
             "name": "抽象風"
         },
         {
+            "id": "142",
             "prompt": "dark vintage style",
             "name": "深色復古風格"
         },
         {
+            "id": "143",
             "prompt": "Gothic gloomy style",
             "name": "哥德式黑暗"
         },
         {
+            "id": "144",
             "prompt": "realism",
             "name": "寫實主義"
         }
     ],
-    "表現手法與風格8": [
+    "畫家/繪畫風格": [
         {
+            "id": "145",
             "prompt": "Vincent Van Gogh",
             "name": "梵谷"
         },
         {
+            "id": "146",
             "prompt": "Leonardo Da Vinci",
             "name": "達文西"
         },
         {
+            "id": "147",
             "prompt": "Claude Monet",
             "name": "莫內"
         },
         {
+            "id": "148",
             "prompt": "pointillism",
             "name": "點彩派"
         },
         {
+            "id": "149",
             "prompt": "realistic",
             "name": "真實的"
         }
     ],
-    "表現手法與風格9": [
+    "3D/建築": [
         {
+            "id": "150",
             "prompt": "3D",
             "name": "3D風格"
         },
         {
+            "id": "151",
             "prompt": "Unreal Engine",
             "name": "虛幻引擎"
         },
         {
+            "id": "152",
             "prompt": "octane render",
             "name": "OC渲染"
         },
         {
+            "id": "153",
             "prompt": "3D render",
             "name": "3D渲染"
         },
         {
+            "id": "154",
             "prompt": "Maxon Cinema 4D渲染",
             "name": "Maxon Cinema 4D渲染"
         },
         {
+            "id": "155",
             "prompt": "architectural visualisation",
             "name": "建築渲染"
         },
         {
+            "id": "156",
             "prompt": "Corona Render",
             "name": "室內渲染"
         },
         {
+            "id": "157",
             "prompt": "Quixel Megascans Render",
             "name": "真實感渲染"
         },
         {
+            "id": "158",
             "prompt": "V-Ray",
             "name": "V射線"
         }

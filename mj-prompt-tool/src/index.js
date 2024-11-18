@@ -1,33 +1,45 @@
 import './scss/index.scss'
 
-import { createApp, ref, nextTick, onMounted, computed } from 'vue';
+import { createApp, ref, onMounted } from 'vue';
 
 const vm = createApp({
     setup() {
-        const styles = ref({}); // 用於儲存 JSON 資料
-        const test = ref("test");
+        const styles = ref({});
+        const finalPrompt = ref("");
+        const selectedStyle = ref("style");
 
-        // 在組件掛載後載入 JSON
-        onMounted(async () => {
+        function addPrompt(text) {
+            finalPrompt.value += text + ", ";
+        }
+
+        function clearPrompt() {
+            finalPrompt.value = "";
+        }
+        async function loadStyles(style) {
             try {
-                const response = await fetch('./data/style.json'); // 載入 style.json
+                const response = await fetch('./data/' + style + '.json');
                 if (!response.ok) {
                     throw new Error('Failed to load JSON file');
                 }
-                styles.value = await response.json(); // 解析 JSON 並儲存到 styles
+                styles.value = await response.json();
             } catch (error) {
                 console.error(error);
             }
-            console.log(styles.value);
-            console.log(test.value);
+        }
+
+        onMounted(async () => {
+            loadStyles(selectedStyle.value);
         });
 
         return {
             styles,
-            test
+            finalPrompt,
+            selectedStyle,
+            addPrompt,
+            clearPrompt,
+            loadStyles
         };
     }
 });
 
 vm.mount('#app');
-
