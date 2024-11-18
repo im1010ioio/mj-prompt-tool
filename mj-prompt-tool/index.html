@@ -36,15 +36,18 @@
                 <a href="#top">Go to top</a>
             </div>
         </div>
-        <div class="col-items scrollable">
+        <div id="col-items" class="col-items scrollable">
             <div id="top"></div>
             <div :id="key" v-for="(group, key) in styles" :key="key" class="style-group">
                 <h2>{{ key }}</h2>
                 <ul class="list-card">
                     <li v-for="(item, index) in group" :key="index"
                         :style="`background-image: url(./data/${selectedStyle}/${item.id}.png);`"
-                        @click="addPrompt(item.prompt)">
-                        <span>{{ item.id }} <strong>{{ item.name }}</strong> ({{ item.prompt }})</span>
+                        @click="addPrompt(item.prompt, item.name)">
+                        <span>
+                            <span class="text-id" v-if="item.id">{{ item.id }}</span>
+                            <strong>{{ item.name }}</strong> ({{ item.prompt }})
+                        </span>
                         <div>
                             <small>{{ item.description }}</small>
                         </div>
@@ -55,10 +58,11 @@
         <div class="col-textarea scrollable">
             <div class="d-flex">
                 <h2>Prompt</h2>
-                <button class="btn-cancel" type="button" @click="clearPrompt">Clear Prompt</button>
+                <button class="btn btn-normal ms-auto" type="button" @click="copyToClipboard" :disabled="!finalPrompt">Copy</button>
+                <button class="btn btn-cancel" type="button" @click="clearPrompt">Clear</button>
             </div>
-            <textarea>{{finalPrompt}}</textarea>
-            <small v-if="finalPrompt">ss</small>
+            <small v-if="finalName">{{finalName}}</small>
+            <textarea v-model="finalPrompt"></textarea>
         </div>
     </div>
     <script type="module" src="/src/index.js"></script>

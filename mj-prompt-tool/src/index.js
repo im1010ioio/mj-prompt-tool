@@ -6,15 +6,19 @@ const vm = createApp({
     setup() {
         const styles = ref({});
         const finalPrompt = ref("");
+        const finalName = ref("");
         const selectedStyle = ref("style");
 
-        function addPrompt(text) {
-            finalPrompt.value += text + ", ";
+        function addPrompt(prompt, name) {
+            finalPrompt.value += prompt + ", ";
+            finalName.value += name + ", ";
         }
 
         function clearPrompt() {
             finalPrompt.value = "";
+            finalName.value = "";
         }
+
         async function loadStyles(style) {
             try {
                 const response = await fetch('./data/' + style + '.json');
@@ -25,6 +29,12 @@ const vm = createApp({
             } catch (error) {
                 console.error(error);
             }
+            document.getElementById('col-items').scrollTop = 0;
+        }
+
+        function copyToClipboard() {
+            navigator.clipboard.writeText(finalPrompt.value);
+            alert("已複製");
         }
 
         onMounted(async () => {
@@ -34,10 +44,12 @@ const vm = createApp({
         return {
             styles,
             finalPrompt,
+            finalName,
             selectedStyle,
             addPrompt,
             clearPrompt,
-            loadStyles
+            loadStyles,
+            copyToClipboard
         };
     }
 });
