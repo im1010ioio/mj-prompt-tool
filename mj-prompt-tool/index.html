@@ -20,19 +20,24 @@
             <select @change="loadStyles(selectedStyle)" v-model="selectedStyle">
                 <option value="style">風格</option>
                 <option value="camera">相機</option>
+                <option value="film">底片</option>
             </select>
             <ul>
                 <li v-for="(group, key) in styles">
                     <a :href="'#' + key">{{ key }}</a>
                 </li>
             </ul>
+            <div class="bottom-links">
+                <a href="#top">Go to top</a>
+            </div>
         </div>
         <div class="col-items scrollable">
+            <div id="top"></div>
             <div :id="key" v-for="(group, key) in styles" :key="key" class="style-group">
                 <h2>{{ key }}</h2>
                 <ul class="list-card">
                     <li v-for="(item, index) in group" :key="index"
-                        :style="`background-image: url(./data/style/${item.id}.png);`"
+                        :style="`background-image: url(./data/${selectedStyle}/${item.id}.png);`"
                         @click="addPrompt(item.prompt)">
                         <span>{{ item.id }} <strong>{{ item.name }}</strong> ({{ item.prompt }})</span>
                         <div>

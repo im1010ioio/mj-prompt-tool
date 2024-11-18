@@ -1,0 +1,237 @@
+{
+    "Lomo專用底片": [
+        {
+            "prompt": "Lomography ISO 800 35mm film",
+            "name": "Lomo專用底片",
+            "description": ""
+        },
+        {
+            "prompt": "Lomography 35mm ISO 400 film",
+            "name": "Lomo專用底片",
+            "description": ""
+        },
+        {
+            "prompt": "Lomography ISO 100 35mm film",
+            "name": "Lomo專用底片",
+            "description": ""
+        },
+        {
+            "prompt": "LomoChrome Turquoise ISO100 film",
+            "name": "Lomo藍調特效底片",
+            "description": ""
+        },
+        {
+            "prompt": "LomoChrome Purple ISO 400 film",
+            "name": "Lomo紫調負片",
+            "description": ""
+        },
+        {
+            "prompt": "LomoChrome Metropolis ISO 400 film",
+            "name": "冷調彩色負片",
+            "description": ""
+        },
+        {
+            "prompt": "Lomography Lobster ISO 200 film",
+            "name": "Lomo銅黃色調底片",
+            "description": ""
+        },
+        {
+            "prompt": "Lomography Color Tiger ISO 200 film",
+            "name": "Lomo標準色調專用底片",
+            "description": ""
+        },
+        {
+            "prompt": "LomoChrome Color ’92 ISO 400 film",
+            "name": "Lomo經典復古色調專用底片",
+            "description": ""
+        }
+    ],
+    "Fujifilm底片": [
+        {
+            "prompt": "Fujifilm SUPERIA PREMIUM 400",
+            "name": "富士底片",
+            "description": ""
+        },
+        {
+            "prompt": "Fujichrome Velvia 100F Professional film",
+            "name": "富士底片",
+            "description": ""
+        },
+        {
+            "prompt": "Fujichrome Provia 100F Professional film",
+            "name": "富士底片",
+            "description": ""
+        }
+    ],
+    "Fujifilm黑白底片": [
+        {
+            "prompt": "NEOPAN SS film",
+            "name": "一般普通黑白底片",
+            "description": ""
+        },
+        {
+            "prompt": "NEOPAN ACROS ISO 100 film",
+            "name": "富士黑白底片",
+            "description": ""
+        },
+        {
+            "prompt": "NEOPAN Presto ISO 400 film",
+            "name": "富士黑白底片",
+            "description": ""
+        },
+        {
+            "prompt": "NEOPAN Super Presto ISO 600 film",
+            "name": "富士黑白底片",
+            "description": ""
+        }
+    ],
+    "Kodak彩色底片": [
+        {
+            "prompt": "Kodak 200T film",
+            "name": "電影底片",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak 500T film",
+            "name": "電影底片",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak 250T film",
+            "name": "電影底片",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak ProImage 100 film",
+            "name": "柯達專業",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak PORTRA 160 film",
+            "name": "柯達專業人物專用底片",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak PORTRA 400 film",
+            "name": "柯達專業人物專用底片",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak Ektar 100 film",
+            "name": "風景專用底片",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak UltraMax film 400",
+            "name": "彩色底片",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak Gold 200 film",
+            "name": "針對紅與黃表現更鮮艷的底片",
+            "description": ""
+        },
+        {
+            "prompt": "Kodak ColorPlus200 film",
+            "name": "色彩偏暖的一般底片",
+            "description": ""
+        }
+    ],
+    "Kodak黑白底片": [
+        {
+            "prompt": "Kodak Double-X film",
+            "name": "黑白電影底片",
+            "description": ""
+        }
+    ],
+    "Konica底片": [
+        {
+            "prompt": "Konica monochrome film dk",
+            "name": "柯尼卡黑白底片",
+            "description": ""
+        },
+        {
+            "prompt": "Sakura Color 100 film",
+            "name": "日本第一款彩色膠片",
+            "description": ""
+        },
+        {
+            "prompt": "Konica SR-V film",
+            "name": "彩色底片",
+            "description": ""
+        },
+        {
+            "prompt": "Konica SR-G film",
+            "name": "彩色底片",
+            "description": ""
+        },
+        {
+            "prompt": "Konica Super SR film",
+            "name": "彩色底片",
+            "description": ""
+        },
+        {
+            "prompt": "Konica Super XG film",
+            "name": "彩色底片",
+            "description": ""
+        },
+        {
+            "prompt": "Konica Centuria film",
+            "name": "最後一代彩色底片",
+            "description": ""
+        }
+    ],
+    "AGFA彩色底片": [
+        {
+            "prompt": "Agfa Ultra 100 film",
+            "name": "彩色底片",
+            "description": ""
+        },
+        {
+            "prompt": "AGFA VISTA 200 film",
+            "name": "彩色底片",
+            "description": ""
+        }
+    ],
+    "AGFA黑白底片": [
+        {
+            "prompt": "AGFA APX100 film",
+            "name": "黑白底片",
+            "description": ""
+        },
+        {
+            "prompt": "AGFA APX400 film",
+            "name": "黑白底片",
+            "description": ""
+        }
+    ],
+    "希區考克電影底片": [
+        {
+            "prompt": "Hitchcock 500T 5203 film",
+            "name": "希區考克電影底片ISO 50",
+            "description": ""
+        },
+        {
+            "prompt": "Hitchcock 250D 5207 film",
+            "name": "希區考克電影底片ISO 135",
+            "description": ""
+        },
+        {
+            "prompt": "Hitchcock 500T 5219 film",
+            "name": "希區考克電影底片ISO 500",
+            "description": ""
+        },
+        {
+            "prompt": "Hitchcock Double-X 5222 film",
+            "name": "希區考克黑白電影底片",
+            "description": ""
+        }
+    ],
+    "Ilford底片": [
+        {
+            "prompt": "Ilford HP5 Plus 400 Film",
+            "name": "中片幅黑白底片",
+            "description": ""
+        }
+    ]
+}

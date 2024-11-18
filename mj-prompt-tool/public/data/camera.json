@@ -1,6 +1,7 @@
 {
     "照片風格": [
         {
+            "id": "1",
             "prompt": "real photos",
             "name": "真實照",
             "description": ""
@@ -24,6 +25,108 @@
             "prompt": "Voigtlander",
             "name": "福倫達",
             "description": "復古黑白效果"
+        }
+    ],
+    "焦段與光圈": [
+        {
+            "prompt": "f1.2",
+            "name": "",
+            "description": "數字越小背景越糊"
+        },
+        {
+            "prompt": "f1.4",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "f2.8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "f4",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "f5.6",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "f8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "f11",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "f22",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "14mm f2.8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "18mm f2.8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "20mm f2.8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "24mm f2.8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "28mm f2.8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "35mm f1.4",
+            "name": "",
+            "description": "背景糊"
+        },
+        {
+            "prompt": "50mm f1.4",
+            "name": "",
+            "description": "背景糊"
+        },
+        {
+            "prompt": "85mm f1.4",
+            "name": "",
+            "description": "背景糊"
+        },
+        {
+            "prompt": "105mm f2.8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "prompt": "60mm f2.8 MACRO",
+            "name": "",
+            "description": "微距"
+        },
+        {
+            "prompt": "85mm F2 Macro",
+            "name": "",
+            "description": "微距"
+        },
+        {
+            "prompt": "105mm f2.8 MACRO",
+            "name": "",
+            "description": "微距"
         }
     ],
     "復古相機": [

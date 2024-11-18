@@ -81,7 +81,6 @@ a, a:visited{
     color: var(--color-theme);
     text-decoration: none;
     line-height: 2;
-    white-space: nowrap;
     transition: .3s;
 }
 
@@ -96,47 +95,59 @@ select, textarea{
     font-family: "Source Code Pro", monospace;
 }
 
-
-#app > .col-style{
-    --width: 11rem;
-
-    padding-top: 2rem;
-    min-width: var(--width);
-    max-width: var(--width);
-    ul{
-        padding-left: 1.25rem;
-        margin: 0;
-        color: #666;
-    }
-}
-
-
 select{
     padding: .5rem 1.5rem .5rem 1rem;
     cursor: pointer;
     margin-bottom: 2rem;
 }
 
-.col-items{
-    max-width: 70%;
+
+#app > {
+    .col-style{
+        --width: 12.5rem;
+        min-width: var(--width);
+        max-width: var(--width);
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        ul{
+            padding-left: 1.25rem;
+            margin: 0;
+            color: #666;
+        }
+    }
+    .col-items{
+        flex-grow: 1;
+        padding-bottom: 2rem;
+    }
+    .col-textarea{
+        --width: 18rem;
+        min-width: var(--width);
+        max-width: var(--width);
+    
+        display: flex;
+        flex-direction: column;
+
+        textarea{
+            position: relative;
+            z-index: 4;
+            flex-grow: 1;
+            width: 100%;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+            line-height: 2;
+        }
+    }
 }
 
-
-.col-textarea{
-    display: flex;
-    flex-direction: column;
+.bottom-links{
+    text-align: center;
+    margin-top: auto;
 }
 
-.col-textarea textarea{
-    position: relative;
-    z-index: 4;
-    flex-grow: 1;
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-    line-height: 2;
-}
 
 h2{
     position: sticky;
