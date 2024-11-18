@@ -1,0 +1,95 @@
+{
+    "留白/孤立": [
+        {
+            "prompt": "Negative Space",
+            "name": "留白, 負空間",
+            "description": ""
+        },
+        {
+            "prompt": "Isolated",
+            "name": "孤立構圖",
+            "description": ""
+        }
+    ],
+    "三分法": [
+        {
+            "prompt": "rule of thirds",
+            "name": "三分法構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Horizontal Rule of Thirds",
+            "name": "水平三分法構圖",
+            "description": ""
+        },
+        {
+            "prompt": "vertical rule of thirds",
+            "name": "垂直三分法構圖",
+            "description": ""
+        }
+    ],
+    "二分法": [
+        {
+            "prompt": "dichotomy",
+            "name": "二分法構圖",
+            "description": ""
+        },
+        {
+            "prompt": "vertical dichotomy",
+            "name": "垂直二分法構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Horizontal dichotomy",
+            "name": "水平二分法構圖",
+            "description": ""
+        }
+    ],
+    "其他構圖": [
+        {
+            "prompt": "Composition with Triangle",
+            "name": "三角構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Figure to Ground",
+            "name": "圖底關係",
+            "description": ""
+        },
+        {
+            "prompt": "Symmetry",
+            "name": "對稱構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Center Dominant Eye",
+            "name": "角色的眼睛放在畫面中間的構圖",
+            "description": ""
+        },
+        {
+            "prompt": "framing",
+            "name": "框架構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Leading Lines",
+            "name": "引導線構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Diagonals",
+            "name": "對角線構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Golden Ratio",
+            "name": "黃金分割構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Contrast",
+            "name": "對比構圖",
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "燈光風格": [
+        {
+            "prompt": "cinematic lighting",
+            "name": "電影光",
+            "description": ""
+        },
+        {
+            "prompt": "epic cinematic lighting",
+            "name": "史詩般的電影燈光",
+            "description": ""
+        },
+        {
+            "prompt": "volumetric lighting",
+            "name": "體積照明",
+            "description": ""
+        },
+        {
+            "prompt": "captivating lighting",
+            "name": "迷人的燈光",
+            "description": ""
+        },
+        {
+            "prompt": "cold light",
+            "name": "冷光",
+            "description": ""
+        },
+        {
+            "prompt": "mood lighting",
+            "name": "情緒照明",
+            "description": ""
+        },
+        {
+            "prompt": "bright",
+            "name": "明亮的",
+            "description": ""
+        },
+        {
+            "prompt": "Soft illumination",
+            "name": "柔和的照明",
+            "description": ""
+        },
+        {
+            "prompt": "soft lights",
+            "name": "柔光",
+            "description": ""
+        },
+        {
+            "prompt": "fluorescent lighting",
+            "name": "螢光燈",
+            "description": ""
+        },
+        {
+            "prompt": "rays of shimmering light",
+            "name": "閃爍光",
+            "description": ""
+        },
+        {
+            "prompt": "morning light",
+            "name": "晨光",
+            "description": ""
+        },
+        {
+            "prompt": "Crepuscular Ray",
+            "name": "黃昏射線",
+            "description": ""
+        },
+        {
+            "prompt": "outer space view",
+            "name": "外太空觀",
+            "description": ""
+        },
+        {
+            "prompt": "Dramatic lighting",
+            "name": "戲劇燈光",
+            "description": ""
+        },
+        {
+            "prompt": "bisexual lighting",
+            "name": "雙性照明",
+            "description": ""
+        },
+        {
+            "prompt": "Rembrandt Lighting",
+            "name": "林布蘭燈光",
+            "description": ""
+        },
+        {
+            "prompt": "Split Lighting",
+            "name": "分離照明",
+            "description": ""
+        },
+        {
+            "prompt": "front lighting",
+            "name": "前燈",
+            "description": ""
+        },
+        {
+            "prompt": "Back lighting",
+            "name": "背光照明",
+            "description": ""
+        },
+        {
+            "prompt": "clean background trending",
+            "name": "乾淨的背景趨勢",
+            "description": ""
+        },
+        {
+            "prompt": "rim lights",
+            "name": "邊緣燈",
+            "description": ""
+        },
+        {
+            "prompt": "global illuminations",
+            "name": "全域照明",
+            "description": ""
+        },
+        {
+            "prompt": "neon cold lighting",
+            "name": "霓虹燈冷光",
+            "description": ""
+        },
+        {
+            "prompt": "hard lighting",
+            "name": "強光",
+            "description": ""
+        },
+        {
+            "prompt": "dynamic lighting",
+            "name": "動感光",
+            "description": ""
+        }
+    ]
+}

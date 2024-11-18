@@ -1,0 +1,399 @@
+{
+    "色系形容詞": [
+        {
+            "prompt": "monochrome",
+            "name": "單色",
+            "description": ""
+        },
+        {
+            "prompt": "VGA colors",
+            "name": "VGA顏色",
+            "description": ""
+        },
+        {
+            "prompt": "pastel colors",
+            "name": "柔和的顏色",
+            "description": ""
+        },
+        {
+            "prompt": "Complementary colors",
+            "name": "互補色",
+            "description": ""
+        },
+        {
+            "prompt": "Dark colors",
+            "name": "深色",
+            "description": ""
+        },
+        {
+            "prompt": "bright color",
+            "name": "亮色",
+            "description": ""
+        }
+    ],
+    "色系風格": [
+        {
+            "prompt": "Mint Green",
+            "name": "薄荷綠色系",
+            "description": ""
+        },
+        {
+            "prompt": "Sunset Gradient",
+            "name": "日暮色系",
+            "description": ""
+        },
+        {
+            "prompt": "Maple Red",
+            "name": "楓葉紅色系",
+            "description": ""
+        },
+        {
+            "prompt": "Mountain Blue",
+            "name": "雪山藍色系",
+            "description": ""
+        },
+        {
+            "prompt": "laser candy paper color",
+            "name": "鐳射糖果紙色",
+            "description": ""
+        },
+        {
+            "prompt": "Macarons",
+            "name": "馬卡龍色",
+            "description": ""
+        },
+        {
+            "prompt": "Muted Tones",
+            "name": "莫蘭迪色系",
+            "description": ""
+        },
+        {
+            "prompt": "Titanium",
+            "name": "鈦金屬色系",
+            "description": ""
+        },
+        {
+            "prompt": "Fresh Fruits",
+            "name": "鮮果色系",
+            "description": ""
+        },
+        {
+            "prompt": "Black and White",
+            "name": "黑白灰色系",
+            "description": ""
+        },
+        {
+            "prompt": "Minimalist Black and White",
+            "name": "極簡黑白系",
+            "description": ""
+        },
+        {
+            "prompt": "Warm Brown",
+            "name": "溫暖棕色系",
+            "description": ""
+        },
+        {
+            "prompt": "Soft Pink",
+            "name": "柔和粉紅系",
+            "description": ""
+        },
+        {
+            "prompt": "Fashionable Gray",
+            "name": "時尚灰系",
+            "description": ""
+        },
+        {
+            "prompt": "Crystal Blue",
+            "name": "水晶藍色系",
+            "description": ""
+        },
+        {
+            "prompt": "Candy",
+            "name": "糖果色系",
+            "description": ""
+        },
+        {
+            "prompt": "Coral",
+            "name": "珊瑚色系",
+            "description": ""
+        },
+        {
+            "prompt": "Lavender",
+            "name": "紫羅蘭色系",
+            "description": ""
+        },
+        {
+            "prompt": "Emerald",
+            "name": "綠野仙蹤色系",
+            "description": ""
+        },
+        {
+            "prompt": "Rose Gold",
+            "name": "玫瑰金色系",
+            "description": ""
+        },
+        {
+            "prompt": "Sky Blue",
+            "name": "淺藍色系",
+            "description": ""
+        },
+        {
+            "prompt": "Burgundy",
+            "name": "酒紅色系",
+            "description": ""
+        },
+        {
+            "prompt": "Turquoise",
+            "name": "土耳其藍色系",
+            "description": ""
+        }
+    ],
+    "發光/透明感": [
+        {
+            "prompt": "shine",
+            "name": "發光",
+            "description": ""
+        },
+        {
+            "prompt": "star flash",
+            "name": "星光",
+            "description": ""
+        },
+        {
+            "prompt": "fluorescence",
+            "name": "熒光",
+            "description": ""
+        },
+        {
+            "prompt": "holy light",
+            "name": "聖光",
+            "description": ""
+        },
+        {
+            "prompt": "reflections transparent iridescent colors",
+            "name": "反射透明彩虹色",
+            "description": ""
+        }
+    ],
+    "單一顏色": [
+        {
+            "prompt": "black background centered",
+            "name": "黑色背景居中",
+            "description": ""
+        },
+        {
+            "prompt": "red",
+            "name": "紅",
+            "description": ""
+        },
+        {
+            "prompt": "Richness of red colors",
+            "name": "鮮豔豐富的紅色",
+            "description": ""
+        },
+        {
+            "prompt": "Richness of blue colors",
+            "name": "鮮豔豐富的藍色",
+            "description": ""
+        },
+        {
+            "prompt": "Richness of purple colors",
+            "name": "鮮豔豐富的紫色",
+            "description": ""
+        },
+        {
+            "prompt": "Richness of magenta colors",
+            "name": "鮮豔豐富的洋紅色",
+            "description": ""
+        },
+        {
+            "prompt": "white",
+            "name": "白",
+            "description": ""
+        },
+        {
+            "prompt": "black",
+            "name": "黑",
+            "description": ""
+        },
+        {
+            "prompt": "green",
+            "name": "綠",
+            "description": ""
+        },
+        {
+            "prompt": "yellow",
+            "name": "黃",
+            "description": ""
+        },
+        {
+            "prompt": "blue",
+            "name": "藍色",
+            "description": ""
+        },
+        {
+            "prompt": "magenta",
+            "name": "洋紅",
+            "description": ""
+        },
+        {
+            "prompt": "purple",
+            "name": "紫色的",
+            "description": ""
+        },
+        {
+            "prompt": "gray",
+            "name": "灰",
+            "description": ""
+        },
+        {
+            "prompt": "brown",
+            "name": "棕",
+            "description": ""
+        },
+        {
+            "prompt": "Bright Orange",
+            "name": "亮麗橙色系",
+            "description": ""
+        },
+        {
+            "prompt": "Ivory White",
+            "name": "象牙白色系",
+            "description": ""
+        },
+        {
+            "prompt": "Natural Green",
+            "name": "自然綠色系",
+            "description": ""
+        },
+        {
+            "prompt": "Luxurious Gold",
+            "name": "奢華金色系",
+            "description": ""
+        },
+        {
+            "prompt": "Steady Blue",
+            "name": "穩重藍色系",
+            "description": ""
+        },
+        {
+            "prompt": "Coral Orange",
+            "name": "珊瑚橙色系",
+            "description": ""
+        },
+        {
+            "prompt": "Autumn Brown",
+            "name": "秋日棕色系",
+            "description": ""
+        },
+        {
+            "prompt": "Denim Blue",
+            "name": "丹寧藍色系",
+            "description": ""
+        },
+        {
+            "prompt": "Violet Purple",
+            "name": "紫羅蘭紫系",
+            "description": ""
+        },
+        {
+            "prompt": "Lemon Yellow",
+            "name": "檸檬黃色系",
+            "description": ""
+        }
+    ],
+    "雙色/多色": [
+        {
+            "prompt": "white and green tones",
+            "name": "白色和綠色調",
+            "description": ""
+        },
+        {
+            "prompt": "red and black tones",
+            "name": "紅色和黑色調",
+            "description": ""
+        },
+        {
+            "prompt": "yellow and black tones",
+            "name": "黃色與黑色調",
+            "description": ""
+        },
+        {
+            "prompt": "Gold and silver tones",
+            "name": "金色和銀色調",
+            "description": ""
+        },
+        {
+            "prompt": "neon shades",
+            "name": "霓虹色調",
+            "description": ""
+        },
+        {
+            "prompt": "pink-orange and pink-purple",
+            "name": "粉紅橙色和粉紫色",
+            "description": ""
+        },
+        {
+            "prompt": "silver and red",
+            "name": "銀色與紅色",
+            "description": ""
+        },
+        {
+            "prompt": "light gray and orange",
+            "name": "淺灰與橘色",
+            "description": ""
+        },
+        {
+            "prompt": "Classic Red Black and White",
+            "name": "經典紅黑白色系",
+            "description": ""
+        }
+    ],
+    "調色盤": [
+        {
+            "prompt": "warm color palette",
+            "name": "暖色系調色盤",
+            "description": ""
+        },
+        {
+            "prompt": "cool color palette",
+            "name": "寒色系調色盤",
+            "description": ""
+        },
+        {
+            "prompt": "spring color palette",
+            "name": "春季色調色盤",
+            "description": ""
+        },
+        {
+            "prompt": "summer color palette",
+            "name": "夏季色調色盤",
+            "description": ""
+        },
+        {
+            "prompt": "Autumn color palette",
+            "name": "秋季色調色盤",
+            "description": ""
+        },
+        {
+            "prompt": "Autumn Brown color palette",
+            "name": "秋季棕色調色盤",
+            "description": ""
+        },
+        {
+            "prompt": "winter color palette",
+            "name": "冬季色調色盤",
+            "description": ""
+        },
+        {
+            "prompt": "purple color palette",
+            "name": "紫色系調色盤",
+            "description": ""
+        },
+        {
+            "prompt": "cyan color palette",
+            "name": "青色系調色盤",
+            "description": ""
+        }
+    ]
+}
