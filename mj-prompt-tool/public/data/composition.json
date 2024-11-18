@@ -11,23 +11,6 @@
             "description": ""
         }
     ],
-    "三分法": [
-        {
-            "prompt": "rule of thirds",
-            "name": "三分法構圖",
-            "description": ""
-        },
-        {
-            "prompt": "Horizontal Rule of Thirds",
-            "name": "水平三分法構圖",
-            "description": ""
-        },
-        {
-            "prompt": "vertical rule of thirds",
-            "name": "垂直三分法構圖",
-            "description": ""
-        }
-    ],
     "二分法": [
         {
             "prompt": "dichotomy",
@@ -42,6 +25,23 @@
         {
             "prompt": "Horizontal dichotomy",
             "name": "水平二分法構圖",
+            "description": ""
+        }
+    ],
+    "三分法": [
+        {
+            "prompt": "rule of thirds",
+            "name": "三分法構圖",
+            "description": ""
+        },
+        {
+            "prompt": "Horizontal Rule of Thirds",
+            "name": "水平三分法構圖",
+            "description": ""
+        },
+        {
+            "prompt": "vertical rule of thirds",
+            "name": "垂直三分法構圖",
             "description": ""
         }
     ],

@@ -1,0 +1,124 @@
+{
+    "正向提示詞": [
+        {
+            "prompt": "photograph",
+            "name": "照片",
+            "description": ""
+        },
+        {
+            "prompt": "photorealistic",
+            "name": "逼真的",
+            "description": ""
+        },
+        {
+            "prompt": "photo realist",
+            "name": "照片寫實",
+            "description": ""
+        },
+        {
+            "prompt": "high detail",
+            "name": "高細節",
+            "description": ""
+        },
+        {
+            "prompt": "extreme detail",
+            "name": "極端細節",
+            "description": ""
+        },
+        {
+            "prompt": "hyper quality",
+            "name": "高品質",
+            "description": ""
+        },
+        {
+            "prompt": "high resolution",
+            "name": "高解析",
+            "description": ""
+        },
+        {
+            "prompt": "best quality",
+            "name": "最佳質量",
+            "description": ""
+        },
+        {
+            "prompt": "masterpiece",
+            "name": "傑作",
+            "description": ""
+        },
+        {
+            "prompt": "Highly detailed",
+            "name": "畫出更多詳細的細節",
+            "description": ""
+        },
+        {
+            "prompt": "photorealism",
+            "name": "照片寫實主義",
+            "description": ""
+        },
+        {
+            "prompt": "detailed realistic photo",
+            "name": "詳細逼真的照片",
+            "description": ""
+        },
+        {
+            "prompt": "Studio lighting",
+            "name": "添加攝影棚的燈光，可以為影像添加一些漂亮的紋理",
+            "description": ""
+        },
+        {
+            "prompt": "ultra-fine painting",
+            "name": "超精細畫",
+            "description": ""
+        },
+        {
+            "prompt": "the film",
+            "name": "電影",
+            "description": ""
+        },
+        {
+            "prompt": "sharp focus",
+            "name": "聚焦清晰",
+            "description": ""
+        },
+        {
+            "prompt": "high render",
+            "name": "高渲染",
+            "description": ""
+        },
+        {
+            "prompt": "physically-based rendering",
+            "name": "基於物理渲染",
+            "description": ""
+        },
+        {
+            "prompt": "extreme detail description",
+            "name": "極為詳細的刻畫",
+            "description": ""
+        },
+        {
+            "prompt": "Professional",
+            "name": "專業的，此提示詞可以提昇畫面的對比與彩度",
+            "description": ""
+        },
+        {
+            "prompt": "Vivid Colors",
+            "name": "鮮豔的色彩",
+            "description": ""
+        },
+        {
+            "prompt": "Bokeh",
+            "name": "虛化背景",
+            "description": ""
+        },
+        {
+            "prompt": "High resolution scan",
+            "name": "高解析度掃描",
+            "description": ""
+        },
+        {
+            "prompt": "sharpening effect",
+            "name": "銳利化效果",
+            "description": ""
+        }
+    ]
+}

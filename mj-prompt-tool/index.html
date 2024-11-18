@@ -25,7 +25,7 @@
                 <option value="light">燈光</option>
                 <option value="angle">視角</option>
                 <option value="composition">構圖</option>
-                
+                <option value="quality">品質</option>
             </select>
             <ul>
                 <li v-for="(group, key) in styles">
@@ -58,6 +58,7 @@
                 <button class="btn-cancel" type="button" @click="clearPrompt">Clear Prompt</button>
             </div>
             <textarea>{{finalPrompt}}</textarea>
+            <small v-if="finalPrompt">ss</small>
         </div>
     </div>
     <script type="module" src="/src/index.js"></script>
