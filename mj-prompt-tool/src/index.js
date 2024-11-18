@@ -10,7 +10,7 @@ const vm = createApp({
         // 在組件掛載後載入 JSON
         onMounted(async () => {
             try {
-                const response = await fetch('/data/style.json'); // 載入 style.json
+                const response = await fetch('../public/data/style.json'); // 載入 style.json
                 if (!response.ok) {
                     throw new Error('Failed to load JSON file');
                 }
