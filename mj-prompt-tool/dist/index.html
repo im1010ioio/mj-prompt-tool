@@ -13,8 +13,8 @@
     <link rel="icon" href="./favicon.ico">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
-  <script type="module" crossorigin src="./assets/index-Yig2Zc2-.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-D0UlX9mO.css">
+  <script type="module" crossorigin src="./assets/index-rUkLmjJU.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BOJywt9b.css">
 </head>
 <body>
     <div id="app">
@@ -61,7 +61,7 @@
             <div class="d-flex">
                 <h2>Prompt</h2>
                 <button class="btn btn-normal ms-auto" type="button" @click="copyToClipboard" :disabled="!finalPrompt">Copy</button>
-                <button class="btn btn-cancel" type="button" @click="clearPrompt">Clear</button>
+                <button class="btn btn-cancel" type="button" @click="clearPrompt" :disabled="!finalPrompt">Clear</button>
             </div>
             <small v-if="finalName">{{finalName}}</small>
             <textarea v-model="finalPrompt"></textarea>

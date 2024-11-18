@@ -59,7 +59,7 @@
             <div class="d-flex">
                 <h2>Prompt</h2>
                 <button class="btn btn-normal ms-auto" type="button" @click="copyToClipboard" :disabled="!finalPrompt">Copy</button>
-                <button class="btn btn-cancel" type="button" @click="clearPrompt">Clear</button>
+                <button class="btn btn-cancel" type="button" @click="clearPrompt" :disabled="!finalPrompt">Clear</button>
             </div>
             <small v-if="finalName">{{finalName}}</small>
             <textarea v-model="finalPrompt"></textarea>

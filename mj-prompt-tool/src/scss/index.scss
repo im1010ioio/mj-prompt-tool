@@ -31,6 +31,12 @@
 }
 
 
+.btn:disabled{
+    cursor: not-allowed;
+    color: #666;
+}
+
+
 body{
     color: white;
     background-color: rgba(var(--bg-body-rgb));
@@ -95,10 +101,6 @@ a, .btn-normal{
     &:hover{
         color: #c8cbff;
     }
-    &:disabled{
-        cursor: not-allowed;
-        color: #666;
-    }
 }
 
 select, textarea{
@@ -159,6 +161,7 @@ select{
             width: 100%;
             padding: 1rem;
             margin-bottom: 2rem;
+            resize: none;
         }
 
         small{
