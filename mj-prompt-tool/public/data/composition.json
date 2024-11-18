@@ -1,11 +1,13 @@
 {
     "留白/孤立": [
         {
+            "id": "1",
             "prompt": "Negative Space",
             "name": "留白, 負空間",
             "description": ""
         },
         {
+            "id": "2",
             "prompt": "Isolated",
             "name": "孤立構圖",
             "description": ""
@@ -13,16 +15,19 @@
     ],
     "二分法": [
         {
+            "id": "3",
             "prompt": "dichotomy",
             "name": "二分法構圖",
             "description": ""
         },
         {
+            "id": "4",
             "prompt": "vertical dichotomy",
             "name": "垂直二分法構圖",
             "description": ""
         },
         {
+            "id": "5",
             "prompt": "Horizontal dichotomy",
             "name": "水平二分法構圖",
             "description": ""
@@ -30,16 +35,19 @@
     ],
     "三分法": [
         {
+            "id": "6",
             "prompt": "rule of thirds",
             "name": "三分法構圖",
             "description": ""
         },
         {
+            "id": "7",
             "prompt": "Horizontal Rule of Thirds",
             "name": "水平三分法構圖",
             "description": ""
         },
         {
+            "id": "8",
             "prompt": "vertical rule of thirds",
             "name": "垂直三分法構圖",
             "description": ""
@@ -47,46 +55,55 @@
     ],
     "其他構圖": [
         {
+            "id": "9",
             "prompt": "Composition with Triangle",
             "name": "三角構圖",
             "description": ""
         },
         {
+            "id": "10",
             "prompt": "Figure to Ground",
             "name": "圖底關係",
             "description": ""
         },
         {
+            "id": "11",
             "prompt": "Symmetry",
             "name": "對稱構圖",
             "description": ""
         },
         {
+            "id": "12",
             "prompt": "Center Dominant Eye",
             "name": "角色的眼睛放在畫面中間的構圖",
             "description": ""
         },
         {
+            "id": "13",
             "prompt": "framing",
             "name": "框架構圖",
             "description": ""
         },
         {
+            "id": "14",
             "prompt": "Leading Lines",
             "name": "引導線構圖",
             "description": ""
         },
         {
+            "id": "15",
             "prompt": "Diagonals",
             "name": "對角線構圖",
             "description": ""
         },
         {
+            "id": "16",
             "prompt": "Golden Ratio",
             "name": "黃金分割構圖",
             "description": ""
         },
         {
+            "id": "17",
             "prompt": "Contrast",
             "name": "對比構圖",
             "description": ""

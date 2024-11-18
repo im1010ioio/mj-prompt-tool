@@ -1,46 +1,55 @@
 {
     "Lomo專用底片": [
         {
+            "id": "1",
             "prompt": "Lomography ISO 800 35mm film",
             "name": "Lomo專用底片",
             "description": ""
         },
         {
+            "id": "2",
             "prompt": "Lomography 35mm ISO 400 film",
             "name": "Lomo專用底片",
             "description": ""
         },
         {
+            "id": "3",
             "prompt": "Lomography ISO 100 35mm film",
             "name": "Lomo專用底片",
             "description": ""
         },
         {
+            "id": "4",
             "prompt": "LomoChrome Turquoise ISO100 film",
             "name": "Lomo藍調特效底片",
             "description": ""
         },
         {
+            "id": "5",
             "prompt": "LomoChrome Purple ISO 400 film",
             "name": "Lomo紫調負片",
             "description": ""
         },
         {
+            "id": "6",
             "prompt": "LomoChrome Metropolis ISO 400 film",
             "name": "冷調彩色負片",
             "description": ""
         },
         {
+            "id": "7",
             "prompt": "Lomography Lobster ISO 200 film",
             "name": "Lomo銅黃色調底片",
             "description": ""
         },
         {
+            "id": "8",
             "prompt": "Lomography Color Tiger ISO 200 film",
             "name": "Lomo標準色調專用底片",
             "description": ""
         },
         {
+            "id": "9",
             "prompt": "LomoChrome Color ’92 ISO 400 film",
             "name": "Lomo經典復古色調專用底片",
             "description": ""
@@ -48,97 +57,111 @@
     ],
     "Fujifilm底片": [
         {
+            "id": "10",
             "prompt": "Fujifilm SUPERIA PREMIUM 400",
             "name": "富士底片",
             "description": ""
         },
         {
+            "id": "11",
             "prompt": "Fujichrome Velvia 100F Professional film",
             "name": "富士底片",
             "description": ""
         },
         {
+            "id": "12",
             "prompt": "Fujichrome Provia 100F Professional film",
             "name": "富士底片",
             "description": ""
-        }
-    ],
-    "Fujifilm黑白底片": [
+        },
         {
+            "id": "13",
             "prompt": "NEOPAN SS film",
             "name": "一般普通黑白底片",
             "description": ""
         },
         {
+            "id": "14",
             "prompt": "NEOPAN ACROS ISO 100 film",
             "name": "富士黑白底片",
             "description": ""
         },
         {
+            "id": "15",
             "prompt": "NEOPAN Presto ISO 400 film",
             "name": "富士黑白底片",
             "description": ""
         },
         {
+            "id": "16",
             "prompt": "NEOPAN Super Presto ISO 600 film",
             "name": "富士黑白底片",
             "description": ""
         }
     ],
-    "Kodak彩色底片": [
+    "Kodak底片": [
         {
+            "id": "17",
             "prompt": "Kodak 200T film",
             "name": "電影底片",
             "description": ""
         },
         {
+            "id": "18",
             "prompt": "Kodak 500T film",
             "name": "電影底片",
             "description": ""
         },
         {
+            "id": "19",
             "prompt": "Kodak 250T film",
             "name": "電影底片",
             "description": ""
         },
         {
+            "id": "20",
             "prompt": "Kodak ProImage 100 film",
             "name": "柯達專業",
             "description": ""
         },
         {
+            "id": "21",
             "prompt": "Kodak PORTRA 160 film",
             "name": "柯達專業人物專用底片",
             "description": ""
         },
         {
+            "id": "22",
             "prompt": "Kodak PORTRA 400 film",
             "name": "柯達專業人物專用底片",
             "description": ""
         },
         {
+            "id": "23",
             "prompt": "Kodak Ektar 100 film",
             "name": "風景專用底片",
             "description": ""
         },
         {
+            "id": "24",
             "prompt": "Kodak UltraMax film 400",
             "name": "彩色底片",
             "description": ""
         },
         {
+            "id": "25",
             "prompt": "Kodak Gold 200 film",
             "name": "針對紅與黃表現更鮮艷的底片",
             "description": ""
         },
         {
+            "id": "26",
             "prompt": "Kodak ColorPlus200 film",
             "name": "色彩偏暖的一般底片",
             "description": ""
-        }
-    ],
-    "Kodak黑白底片": [
+        },
         {
+            "id": "27",
             "prompt": "Kodak Double-X film",
             "name": "黑白電影底片",
             "description": ""
@@ -146,60 +169,69 @@
     ],
     "Konica底片": [
         {
+            "id": "28",
             "prompt": "Konica monochrome film dk",
             "name": "柯尼卡黑白底片",
             "description": ""
         },
         {
+            "id": "29",
             "prompt": "Sakura Color 100 film",
             "name": "日本第一款彩色膠片",
             "description": ""
         },
         {
+            "id": "30",
             "prompt": "Konica SR-V film",
             "name": "彩色底片",
             "description": ""
         },
         {
+            "id": "31",
             "prompt": "Konica SR-G film",
             "name": "彩色底片",
             "description": ""
         },
         {
+            "id": "32",
             "prompt": "Konica Super SR film",
             "name": "彩色底片",
             "description": ""
         },
         {
+            "id": "33",
             "prompt": "Konica Super XG film",
             "name": "彩色底片",
             "description": ""
         },
         {
+            "id": "34",
             "prompt": "Konica Centuria film",
             "name": "最後一代彩色底片",
             "description": ""
         }
     ],
-    "AGFA彩色底片": [
+    "AGFA底片": [
         {
+            "id": "35",
             "prompt": "Agfa Ultra 100 film",
             "name": "彩色底片",
             "description": ""
         },
         {
+            "id": "36",
             "prompt": "AGFA VISTA 200 film",
             "name": "彩色底片",
             "description": ""
-        }
-    ],
-    "AGFA黑白底片": [
+        },
         {
+            "id": "37",
             "prompt": "AGFA APX100 film",
             "name": "黑白底片",
             "description": ""
         },
         {
+            "id": "38",
             "prompt": "AGFA APX400 film",
             "name": "黑白底片",
             "description": ""
@@ -207,21 +239,25 @@
     ],
     "希區考克電影底片": [
         {
+            "id": "39",
             "prompt": "Hitchcock 500T 5203 film",
             "name": "希區考克電影底片ISO 50",
             "description": ""
         },
         {
+            "id": "40",
             "prompt": "Hitchcock 250D 5207 film",
             "name": "希區考克電影底片ISO 135",
             "description": ""
         },
         {
+            "id": "41",
             "prompt": "Hitchcock 500T 5219 film",
             "name": "希區考克電影底片ISO 500",
             "description": ""
         },
         {
+            "id": "42",
             "prompt": "Hitchcock Double-X 5222 film",
             "name": "希區考克黑白電影底片",
             "description": ""
@@ -229,6 +265,7 @@
     ],
     "Ilford底片": [
         {
+            "id": "43",
             "prompt": "Ilford HP5 Plus 400 Film",
             "name": "中片幅黑白底片",
             "description": ""
