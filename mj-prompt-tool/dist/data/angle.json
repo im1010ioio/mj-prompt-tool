@@ -1,0 +1,350 @@
+{
+    "視角": [
+        {
+            "id": 1,
+            "prompt": "side angle",
+            "name": "側角",
+            "description": ""
+        },
+        {
+            "id": 2,
+            "prompt": "super side angle",
+            "name": "超側角",
+            "description": ""
+        },
+        {
+            "id": 3,
+            "prompt": "image taken from a man's height",
+            "name": "從人的高度拍攝",
+            "description": ""
+        },
+        {
+            "id": 4,
+            "prompt": "Aerial view",
+            "name": "鳥瞰圖",
+            "description": ""
+        },
+        {
+            "id": 5,
+            "prompt": "tilted down view",
+            "name": "向下傾斜視角",
+            "description": ""
+        },
+        {
+            "id": 6,
+            "prompt": "top view",
+            "name": "頂視圖",
+            "description": ""
+        },
+        {
+            "id": 7,
+            "prompt": "tilt-shift",
+            "name": "傾斜移位",
+            "description": ""
+        },
+        {
+            "id": 8,
+            "prompt": "satellite view",
+            "name": "衛星視圖",
+            "description": ""
+        },
+        {
+            "id": 9,
+            "prompt": "Bottom view",
+            "name": "底視圖",
+            "description": ""
+        },
+        {
+            "id": 10,
+            "prompt": "low-angle shot",
+            "name": "低角度視角",
+            "description": ""
+        },
+        {
+            "id": 11,
+            "prompt": "front, side, rear view",
+            "name": "前視圖、側視圖、後視圖",
+            "description": ""
+        },
+        {
+            "id": 12,
+            "prompt": "product view",
+            "name": "產品視圖",
+            "description": ""
+        },
+        {
+            "id": 13,
+            "prompt": "extreme closeup view",
+            "name": "極端特寫視圖",
+            "description": ""
+        },
+        {
+            "id": 14,
+            "prompt": "look up",
+            "name": "仰視",
+            "description": ""
+        },
+        {
+            "id": 15,
+            "prompt": "first-person view",
+            "name": "第一人稱視角",
+            "description": ""
+        },
+        {
+            "id": 16,
+            "prompt": "isometric view",
+            "name": "等距視圖",
+            "description": ""
+        },
+        {
+            "id": 17,
+            "prompt": "closeup view",
+            "name": "特寫視圖",
+            "description": ""
+        },
+        {
+            "id": 18,
+            "prompt": "high angle view",
+            "name": "高角度視圖",
+            "description": ""
+        },
+        {
+            "id": 19,
+            "prompt": "Worm's Eye View",
+            "name": "蟲眼視角",
+            "description": ""
+        },
+        {
+            "id": 20,
+            "prompt": "microscopic view",
+            "name": "微觀視圖（顯微）",
+            "description": ""
+        },
+        {
+            "id": 21,
+            "prompt": "third-person perspective",
+            "name": "第三人稱視角",
+            "description": ""
+        },
+        {
+            "id": 22,
+            "prompt": "two-point perspective",
+            "name": "兩點透視",
+            "description": ""
+        },
+        {
+            "id": 23,
+            "prompt": "Three-point perspective",
+            "name": "三點透視",
+            "description": ""
+        },
+        {
+            "id": 24,
+            "prompt": "portrait",
+            "name": "肖像",
+            "description": ""
+        },
+        {
+            "id": 25,
+            "prompt": "Elevation perspective",
+            "name": "立面透視",
+            "description": ""
+        },
+        {
+            "id": 26,
+            "prompt": "ultra wide shot",
+            "name": "超廣角鏡頭",
+            "description": ""
+        },
+        {
+            "id": 27,
+            "prompt": "headshot",
+            "name": "爆頭",
+            "description": ""
+        },
+        {
+            "id": 28,
+            "prompt": "a cross-section view of (a walnut)",
+            "name": "橫斷面圖",
+            "description": ""
+        },
+        {
+            "id": 29,
+            "prompt": "cinematic shot",
+            "name": "電影鏡頭",
+            "description": ""
+        },
+        {
+            "id": 30,
+            "prompt": "in focus",
+            "name": "焦點對準",
+            "description": ""
+        },
+        {
+            "id": 31,
+            "prompt": "depth of field",
+            "name": "景深",
+            "description": ""
+        },
+        {
+            "id": 32,
+            "prompt": "Wide angle view",
+            "name": "廣角鏡頭",
+            "description": ""
+        },
+        {
+            "id": 33,
+            "prompt": "Close Up",
+            "name": "特寫",
+            "description": ""
+        },
+        {
+            "id": 34,
+            "prompt": "Medium Shot",
+            "name": "中景",
+            "description": ""
+        },
+        {
+            "id": 35,
+            "prompt": "Medium Long Shot",
+            "name": "中遠景",
+            "description": ""
+        },
+        {
+            "id": 36,
+            "prompt": "Long Shot",
+            "name": "遠景",
+            "description": ""
+        },
+        {
+            "id": 37,
+            "prompt": "over the shoulder shot",
+            "name": "過肩景",
+            "description": ""
+        },
+        {
+            "id": 38,
+            "prompt": "loose shot",
+            "name": "鬆散景",
+            "description": ""
+        },
+        {
+            "id": 39,
+            "prompt": "tight shot",
+            "name": "近距離景",
+            "description": ""
+        },
+        {
+            "id": 40,
+            "prompt": "scenery shot",
+            "name": "風景照",
+            "description": ""
+        },
+        {
+            "id": 41,
+            "prompt": "bokeh",
+            "name": "背景虛化",
+            "description": ""
+        },
+        {
+            "id": 42,
+            "prompt": "foreground",
+            "name": "前景",
+            "description": ""
+        },
+        {
+            "id": 43,
+            "prompt": "background",
+            "name": "背景",
+            "description": ""
+        },
+        {
+            "id": 44,
+            "prompt": "Detail Shot",
+            "name": "細節拍攝",
+            "description": ""
+        }
+    ],
+    "人物部位": [
+        {
+            "id": 45,
+            "prompt": "shoulders above",
+            "name": "人物半身照",
+            "description": ""
+        },
+        {
+            "id": 46,
+            "prompt": "Chest Shot",
+            "name": "胸部",
+            "description": ""
+        },
+        {
+            "id": 47,
+            "prompt": "Waist Shot",
+            "name": "腰部以上",
+            "description": ""
+        },
+        {
+            "id": 48,
+            "prompt": "Knee Shot",
+            "name": "膝蓋以上",
+            "description": ""
+        },
+        {
+            "id": 49,
+            "prompt": "Full Length Shot",
+            "name": "全身照",
+            "description": ""
+        },
+        {
+            "id": 50,
+            "prompt": "Extra Long Shot",
+            "name": "超長距離照",
+            "description": ""
+        },
+        {
+            "id": 51,
+            "prompt": "Big Close-Up",
+            "name": "頭部以上",
+            "description": ""
+        },
+        {
+            "id": 52,
+            "prompt": "Face Shot",
+            "name": "臉部特寫",
+            "description": ""
+        }
+    ],
+    "視線": [
+        {
+            "id": 53,
+            "prompt": "looking at camera",
+            "name": "眼睛看著鏡頭",
+            "description": ""
+        },
+        {
+            "id": 54,
+            "prompt": "looking at another",
+            "name": "兩個角色正在互相交流或對視",
+            "description": ""
+        },
+        {
+            "id": 55,
+            "prompt": "looking away",
+            "name": "看著別的方向，不直視對方",
+            "description": ""
+        },
+        {
+            "id": 56,
+            "prompt": "looking back",
+            "name": "回頭看",
+            "description": ""
+        },
+        {
+            "id": 57,
+            "prompt": "looking up",
+            "name": "向上看",
+            "description": ""
+        }
+    ]
+}

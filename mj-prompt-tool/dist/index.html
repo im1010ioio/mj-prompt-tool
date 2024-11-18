@@ -13,30 +13,43 @@
     <link rel="icon" href="./favicon.ico">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
-  <script type="module" crossorigin src="./assets/index-BgMv02yh.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-tdU_rdzS.css">
+  <script type="module" crossorigin src="./assets/index-hZ8bxAUP.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DeoDmMfh.css">
 </head>
 <body>
     <div id="app">
         <div class="col-style">
             <select @change="loadStyles(selectedStyle)" v-model="selectedStyle">
                 <option value="style">風格</option>
-                <option value="camera">相機</option>
+                <option value="camera">攝影/相機</option>
+                <option value="film">底片</option>
+                <option value="tone">色調</option>
+                <option value="light">燈光</option>
+                <option value="angle">視角</option>
+                <option value="composition">構圖</option>
+                <option value="quality">品質</option>
             </select>
             <ul>
                 <li v-for="(group, key) in styles">
                     <a :href="'#' + key">{{ key }}</a>
                 </li>
             </ul>
+            <div class="bottom-links">
+                <a href="#top">Go to top</a>
+            </div>
         </div>
-        <div class="col-items scrollable">
+        <div id="col-items" class="col-items scrollable">
+            <div id="top"></div>
             <div :id="key" v-for="(group, key) in styles" :key="key" class="style-group">
                 <h2>{{ key }}</h2>
                 <ul class="list-card">
                     <li v-for="(item, index) in group" :key="index"
-                        :style="`background-image: url(./data/style/${item.id}.png);`"
-                        @click="addPrompt(item.prompt)">
-                        <span>{{ item.id }} <strong>{{ item.name }}</strong> ({{ item.prompt }})</span>
+                        :style="`background-image: url(./data/${selectedStyle}/${item.id}.png);`"
+                        @click="addPrompt(item.prompt, item.name)">
+                        <span>
+                            <span class="text-id" v-if="item.id">{{ item.id }}</span>
+                            <strong>{{ item.name }}</strong> ({{ item.prompt }})
+                        </span>
                         <div>
                             <small>{{ item.description }}</small>
                         </div>
@@ -47,9 +60,11 @@
         <div class="col-textarea scrollable">
             <div class="d-flex">
                 <h2>Prompt</h2>
-                <button class="btn-cancel" type="button" @click="clearPrompt">Clear Prompt</button>
+                <button class="btn btn-normal ms-auto" type="button" @click="copyToClipboard" :disabled="!finalPrompt">Copy</button>
+                <button class="btn btn-cancel" type="button" @click="clearPrompt">Clear</button>
             </div>
-            <textarea>{{finalPrompt}}</textarea>
+            <small v-if="finalName">{{finalName}}</small>
+            <textarea v-model="finalPrompt"></textarea>
         </div>
     </div>
 </body>
