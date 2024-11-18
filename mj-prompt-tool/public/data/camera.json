@@ -1,11 +1,73 @@
 {
-    "照片風格": [
+    "攝影類型": [
         {
             "id": "1",
             "prompt": "real photos",
             "name": "真實照",
             "description": ""
         },
+        {
+            "prompt": "social media photos",
+            "name": "社群媒體照片",
+            "description": ""
+        },
+        {
+            "prompt": "photography",
+            "name": "攝影",
+            "description": ""
+        },
+        {
+            "prompt": "street photography",
+            "name": "街拍",
+            "description": ""
+        },
+        {
+            "prompt": "Landscape",
+            "name": "風景攝影",
+            "description": ""
+        },
+        {
+            "prompt": "Portrait",
+            "name": "人像攝影",
+            "description": ""
+        },
+        {
+            "prompt": "stylish photography",
+            "name": "時尚攝影",
+            "description": ""
+        },
+        {
+            "prompt": "fashion photography",
+            "name": "時裝攝影",
+            "description": ""
+        },
+        {
+            "prompt": "Product",
+            "name": "商品攝影",
+            "description": ""
+        },
+        {
+            "prompt": "Wildlife",
+            "name": "生態攝影",
+            "description": ""
+        },
+        {
+            "prompt": "Conceptual",
+            "name": "概念攝影",
+            "description": ""
+        },
+        {
+            "prompt": "Documentary",
+            "name": "紀實攝影",
+            "description": ""
+        },
+        {
+            "prompt": "Macro",
+            "name": "微距攝影",
+            "description": ""
+        }
+    ],
+    "攝影風格": [
         {
             "prompt": "Photo-realism",
             "name": "照片寫實主義",
