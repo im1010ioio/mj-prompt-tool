@@ -803,21 +803,16 @@
         },
         {
             "id": "156",
-            "prompt": "Corona Render",
-            "name": "室內渲染"
-        },
-        {
-            "id": "157",
             "prompt": "Quixel Megascans Render",
             "name": "真實感渲染"
         },
         {
-            "id": "158",
+            "id": "157",
             "prompt": "V-Ray",
             "name": "V射線"
         },
         {
-            "id": "159",
+            "id": "158",
             "prompt": "low poly",
             "name": "低多邊形"
         }
