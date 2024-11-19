@@ -8,6 +8,7 @@ const vm = createApp({
         const finalPrompt = ref("");
         const finalName = ref("");
         const selectedStyle = ref("style");
+        const gridColumn = ref(3);
 
         function addPrompt(prompt, name) {
             finalPrompt.value += prompt + ", ";
@@ -46,6 +47,7 @@ const vm = createApp({
             finalPrompt,
             finalName,
             selectedStyle,
+            gridColumn,
             addPrompt,
             clearPrompt,
             loadStyles,
