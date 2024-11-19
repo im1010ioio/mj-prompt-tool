@@ -335,12 +335,12 @@
         {
             "id": "64",
             "prompt": "Linocut",
-            "name": "剪裁"
+            "name": "版畫"
         },
         {
             "id": "65",
             "prompt": "stock illustration style",
-            "name": "童話故事書插畫風格"
+            "name": "圖庫插畫風格"
         },
         {
             "id": "66",
@@ -351,11 +351,6 @@
             "id": "67",
             "prompt": "Pop art style",
             "name": "普普藝術風格"
-        },
-        {
-            "id": "68",
-            "prompt": "sketch",
-            "name": "草圖"
         },
         {
             "id": "69",
@@ -431,13 +426,13 @@
         },
         {
             "id": "83",
-            "prompt": "OP Art style",
-            "name": "歐普藝術"
+            "prompt": "Contemporary art",
+            "name": "當代藝術"
         },
         {
             "id": "84",
-            "prompt": "Optical Art style",
-            "name": "光學藝術"
+            "prompt": "Art Deco",
+            "name": "裝飾藝術"
         },
         {
             "id": "85",
@@ -448,11 +443,6 @@
             "id": "86",
             "prompt": "futuristic style",
             "name": "未來主義"
-        },
-        {
-            "id": "87",
-            "prompt": "Minimalist style",
-            "name": "極簡主義"
         },
         {
             "id": "88",
@@ -472,12 +462,12 @@
         {
             "id": "91",
             "prompt": "Unity Creations",
-            "name": "統一創作"
+            "name": "Unity 遊戲創作"
         },
         {
             "id": "92",
             "prompt": "Baroque style",
-            "name": "巴洛克時期"
+            "name": "巴洛克風格"
         },
         {
             "id": "93",
@@ -578,8 +568,8 @@
         },
         {
             "id": "112",
-            "prompt": "concept art style",
-            "name": "概念藝術"
+            "prompt": "Scandinavian Style",
+            "name": "北歐風"
         },
         {
             "id": "113",
@@ -589,7 +579,7 @@
         {
             "id": "114",
             "prompt": "Vintage style",
-            "name": "古典風，18-19世紀"
+            "name": "復古風"
         },
         {
             "id": "115",
@@ -599,7 +589,7 @@
         {
             "id": "116",
             "prompt": "Isometric",
-            "name": "等距的（45度與直角構成）"
+            "name": "等軸測投影（45度與直角構成）"
         },
         {
             "id": "117",
@@ -633,6 +623,11 @@
         }
     ],
     "日式風格": [
+        {
+            "id": "87",
+            "prompt": "wabi sabi",
+            "name": "侘寂"
+        },
         {
             "id": "123",
             "prompt": "old Japanese film style",
@@ -820,6 +815,11 @@
             "id": "158",
             "prompt": "V-Ray",
             "name": "V射線"
+        },
+        {
+            "id": "159",
+            "prompt": "low poly",
+            "name": "低多邊形"
         }
     ]
 }
