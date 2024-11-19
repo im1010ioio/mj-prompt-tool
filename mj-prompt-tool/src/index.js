@@ -32,8 +32,8 @@ const vm = createApp({
             document.getElementById('col-items').scrollTop = 0;
         }
 
-        function copyToClipboard() {
-            navigator.clipboard.writeText(finalPrompt.value);
+        function copyToClipboard(content) {
+            navigator.clipboard.writeText(content);
             alert("已複製");
         }
 

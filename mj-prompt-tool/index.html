@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- style -->
     <link rel="icon" href="./favicon.ico">
@@ -44,12 +45,18 @@
                     <li v-for="(item, index) in group" :key="index"
                         :style="`background-image: url(./data/${selectedStyle}/${item.id}.png);`"
                         @click="addPrompt(item.prompt, item.name)">
-                        <span>
-                            <span class="text-id" v-if="item.id">{{ item.id }}</span>
-                            <strong>{{ item.name }}</strong> ({{ item.prompt }})
-                        </span>
-                        <div>
-                            <small>{{ item.description }}</small>
+                        <div class="title-content">
+                            <span class="text-id text-monospace" v-if="item.id">{{ item.id }}</span>
+                            <div>
+                                <div class="text-title text-monospace">{{ item.prompt }}</div>
+                                <strong class="text-title">{{ item.name }}</strong>
+                                <div>
+                                    <small class="text-desc">{{ item.description }}</small>
+                                </div>
+                            </div>
+                            <button class="btn btn-normal ms-auto" type="button" @click.stop="copyToClipboard(item.prompt)">
+                                <span class="material-icons">copy_all</span>
+                            </button>
                         </div>
                     </li>
                 </ul>
@@ -58,11 +65,15 @@
         <div class="col-textarea scrollable">
             <div class="d-flex">
                 <h2>Prompt</h2>
-                <button class="btn btn-normal ms-auto" type="button" @click="copyToClipboard" :disabled="!finalPrompt">Copy</button>
-                <button class="btn btn-cancel" type="button" @click="clearPrompt" :disabled="!finalPrompt">Clear</button>
+                <button class="btn btn-normal ms-auto" type="button" @click="copyToClipboard(finalPrompt)" :disabled="!finalPrompt">
+                    <span class="material-icons">copy_all</span>
+                </button>
+                <button class="btn btn-cancel" type="button" @click="clearPrompt" :disabled="!finalPrompt">
+                    <span class="material-icons">delete_forever</span>
+                </button>
             </div>
             <small v-if="finalName">{{finalName}}</small>
-            <textarea v-model="finalPrompt"></textarea>
+            <textarea class="text-monospace" v-model="finalPrompt"></textarea>
         </div>
     </div>
     <script type="module" src="/src/index.js"></script>
