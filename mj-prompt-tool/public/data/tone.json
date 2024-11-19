@@ -82,14 +82,14 @@
         {"id": 71, "prompt": "Rose Gold and White", "name": "玫瑰金與白色", "description": ""}
     ],
     "調色盤": [
-        {"id": 71, "prompt": "warm color palette", "name": "暖色系調色盤", "description": ""},
-        {"id": 72, "prompt": "cool color palette", "name": "寒色系調色盤", "description": ""},
-        {"id": 73, "prompt": "spring color palette", "name": "春季色調色盤", "description": ""},
-        {"id": 74, "prompt": "summer color palette", "name": "夏季色調色盤", "description": ""},
-        {"id": 75, "prompt": "Autumn color palette", "name": "秋季色調色盤", "description": ""},
-        {"id": 76, "prompt": "Autumn Brown color palette", "name": "秋季棕色調色盤", "description": ""},
-        {"id": 77, "prompt": "winter color palette", "name": "冬季色調色盤", "description": ""},
-        {"id": 78, "prompt": "purple color palette", "name": "紫色系調色盤", "description": ""},
-        {"id": 79, "prompt": "cyan color palette", "name": "青色系調色盤", "description": ""}
+        {"id": 72, "prompt": "warm color palette", "name": "暖色系調色盤", "description": ""},
+        {"id": 73, "prompt": "cool color palette", "name": "寒色系調色盤", "description": ""},
+        {"id": 74, "prompt": "spring color palette", "name": "春季色調色盤", "description": ""},
+        {"id": 75, "prompt": "summer color palette", "name": "夏季色調色盤", "description": ""},
+        {"id": 76, "prompt": "Autumn color palette", "name": "秋季色調色盤", "description": ""},
+        {"id": 77, "prompt": "Autumn Brown color palette", "name": "秋季棕色調色盤", "description": ""},
+        {"id": 78, "prompt": "winter color palette", "name": "冬季色調色盤", "description": ""},
+        {"id": 79, "prompt": "purple color palette", "name": "紫色系調色盤", "description": ""},
+        {"id": 80, "prompt": "cyan color palette", "name": "青色系調色盤", "description": ""}
     ]
 }
