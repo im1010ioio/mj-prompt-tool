@@ -34,7 +34,7 @@ const vm = createApp({
 
         function copyToClipboard(content) {
             navigator.clipboard.writeText(content);
-            alert("已複製");
+            alert(`已複製：${content}`);
         }
 
         onMounted(async () => {

@@ -109,122 +109,467 @@
         {
             "id": "18",
             "prompt": "f1.2",
-            "name": "",
+            "name": "光圈f1.2",
             "description": "數字越小背景越糊"
         },
         {
             "id": "19",
             "prompt": "f1.4",
-            "name": "",
+            "name": "光圈f1.4",
             "description": ""
         },
         {
             "id": "20",
             "prompt": "f2.8",
-            "name": "",
+            "name": "光圈f2.8",
             "description": ""
         },
         {
             "id": "21",
             "prompt": "f4",
-            "name": "",
+            "name": "光圈f4",
             "description": ""
         },
         {
             "id": "22",
             "prompt": "f5.6",
-            "name": "",
+            "name": "光圈f5.6",
             "description": ""
         },
         {
             "id": "23",
             "prompt": "f8",
-            "name": "",
+            "name": "光圈f8",
             "description": ""
         },
         {
             "id": "24",
             "prompt": "f11",
-            "name": "",
+            "name": "光圈f11",
             "description": ""
         },
         {
             "id": "25",
             "prompt": "f22",
-            "name": "",
+            "name": "光圈f22",
             "description": ""
         },
         {
             "id": "26",
             "prompt": "14mm f2.8",
-            "name": "",
+            "name": "焦段+光圈 14mm f2.8",
             "description": ""
         },
         {
             "id": "27",
             "prompt": "18mm f2.8",
-            "name": "",
+            "name": "焦段+光圈 18mm f2.8",
             "description": ""
         },
         {
             "id": "28",
             "prompt": "20mm f2.8",
-            "name": "",
+            "name": "焦段+光圈 20mm f2.8",
             "description": ""
         },
         {
             "id": "29",
             "prompt": "24mm f2.8",
-            "name": "",
+            "name": "焦段+光圈 24mm f2.8",
             "description": ""
         },
         {
             "id": "30",
             "prompt": "28mm f2.8",
-            "name": "",
+            "name": "焦段+光圈 28mm f2.8",
             "description": ""
         },
         {
             "id": "31",
             "prompt": "35mm f1.4",
-            "name": "",
+            "name": "焦段+光圈 35mm f1.4",
             "description": "背景糊"
         },
         {
             "id": "32",
             "prompt": "50mm f1.4",
-            "name": "",
+            "name": "焦段+光圈 50mm f1.4",
             "description": "背景糊"
         },
         {
             "id": "33",
             "prompt": "85mm f1.4",
-            "name": "",
+            "name": "焦段+光圈 85mm f1.4",
             "description": "背景糊"
         },
         {
             "id": "34",
             "prompt": "105mm f2.8",
-            "name": "",
+            "name": "焦段+光圈 105mm f2.8",
             "description": ""
         },
         {
             "id": "35",
             "prompt": "60mm f2.8 MACRO",
-            "name": "",
+            "name": "微距 60mm f2.8 MACRO",
             "description": "微距"
         },
         {
             "id": "36",
             "prompt": "85mm F2 Macro",
-            "name": "",
+            "name": "微距 85mm F2 Macro",
             "description": "微距"
         },
         {
             "id": "37",
             "prompt": "105mm f2.8 MACRO",
-            "name": "",
+            "name": "微距 105mm f2.8 MACRO",
             "description": "微距"
+        }
+    ],
+    
+    "復古相機": [
+        {
+            "id": "38",
+            "prompt": "Photographed by Polaroid",
+            "name": "拍立得",
+            "description": ""
+        },
+        {
+            "id": "39",
+            "prompt": "Photographed by Lomo",
+            "name": "Lomo 底片相機",
+            "description": "陳舊的發色與失焦效果"
+        },
+        {
+            "id": "40",
+            "prompt": "Photographed by LOMO LC-A",
+            "name": "Lomo 底片相機",
+            "description": "陳舊的發色與失焦效果"
+        },
+        {
+            "id": "41",
+            "prompt": "Photographed by auto focus camera",
+            "name": "傻瓜相機",
+            "description": "無明顯效果"
+        }
+    ],
+    "富士相機": [
+        {
+            "id": "42",
+            "prompt": "Photographed by Fujifilm pro 400H",
+            "name": "富士相機",
+            "description": ""
+        }
+    ],
+    "萊卡相機": [
+        {
+            "id": "43",
+            "prompt": "Photographed by Leica M3",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "44",
+            "prompt": "Photographed by Leica M7",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "45",
+            "prompt": "Photographed by Leica MP",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "46",
+            "prompt": "Photographed by Leica R8",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "47",
+            "prompt": "Photographed by Leica R9",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "48",
+            "prompt": "Photographed by Leicaflex",
+            "name": "數位相機",
+            "description": ""
+        },
+        {
+            "id": "49",
+            "prompt": "Photographed by Leica X1",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "50",
+            "prompt": "Photographed by Leica X-E",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "51",
+            "prompt": "Photographed by Leica X",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "52",
+            "prompt": "Photographed by Leica X-U",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "53",
+            "prompt": "Photographed by Leica Q",
+            "name": "萊卡底片機",
+            "description": ""
+        },
+        {
+            "id": "54",
+            "prompt": "Photographed by Leica M8",
+            "name": "萊卡數位相機",
+            "description": ""
+        },
+        {
+            "id": "55",
+            "prompt": "Photographed by Leica M9",
+            "name": "萊卡數位相機",
+            "description": ""
+        },
+        {
+            "id": "56",
+            "prompt": "Photographed by Leica M10",
+            "name": "萊卡數位相機",
+            "description": ""
+        },
+        {
+            "id": "57",
+            "prompt": "Photographed by Leica M11",
+            "name": "萊卡數位相機",
+            "description": ""
+        },
+        {
+            "id": "58",
+            "prompt": "Photographed by Leica 中片幅數位相機",
+            "name": "萊卡數位相機",
+            "description": ""
+        },
+        {
+            "id": "59",
+            "prompt": "Photographed by Leica S1",
+            "name": "萊卡數位相機",
+            "description": ""
+        },
+        {
+            "id": "60",
+            "prompt": "Photographed by Leica S2",
+            "name": "萊卡數位相機",
+            "description": ""
+        },
+        {
+            "id": "61",
+            "prompt": "Photographed by Leica S3",
+            "name": "萊卡數位相機",
+            "description": ""
+        }
+    ],
+    "Nikon 相機": [
+        {
+            "id": "62",
+            "prompt": "Photographed by Nikon F",
+            "name": "Nikon 底片機",
+            "description": ""
+        },
+        {
+            "id": "63",
+            "prompt": "Photographed by Nikon FA",
+            "name": "Nikon 底片機",
+            "description": ""
+        },
+        {
+            "id": "64",
+            "prompt": "Photographed by Nikon FM2",
+            "name": "Nikon 底片機",
+            "description": ""
+        },
+        {
+            "id": "65",
+            "prompt": "Photographed by Nikon F100",
+            "name": "Nikon 底片機",
+            "description": ""
+        },
+        {
+            "id": "66",
+            "prompt": "Photographed by Nikon F301",
+            "name": "Nikon 底片機",
+            "description": ""
+        },
+        {
+            "id": "67",
+            "prompt": "Photographed by Nikon D6",
+            "name": "Nikon 數位相機",
+            "description": ""
+        },
+        {
+            "id": "68",
+            "prompt": "Photographed by Nikon D850",
+            "name": "Nikon 數位相機",
+            "description": ""
+        },
+        {
+            "id": "69",
+            "prompt": "Photographed by Nikon Z9",
+            "name": "Nikon 數位相機",
+            "description": ""
+        },
+        {
+            "id": "70",
+            "prompt": "Photographed by Nikon ZfNikon Zac",
+            "name": "Nikon 數位相機",
+            "description": ""
+        }
+    ],
+    "Canon 相機": [
+        {
+            "id": "71",
+            "prompt": "Photographed by Canon EOS 650",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "72",
+            "prompt": "Photographed by Canon EOS D30",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "73",
+            "prompt": "Photographed by Canon 1D",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "74",
+            "prompt": "Photographed by Canon 5D",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "75",
+            "prompt": "Photographed by Canon 7D Mark II",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "76",
+            "prompt": "Photographed by Canon D60",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "77",
+            "prompt": "Photographed by Canon D90",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "78",
+            "prompt": "Photographed by Canon 300D",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "79",
+            "prompt": "Photographed by Canon 500D",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "80",
+            "prompt": "Photographed by Canon 850D",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "81",
+            "prompt": "Photographed by Canon R100",
+            "name": "Canon 底片機",
+            "description": ""
+        },
+        {
+            "id": "82",
+            "prompt": "Photographed by Canon R8",
+            "name": "Canon 底片機",
+            "description": ""
+        }
+    ],
+    "Sony 相機": [
+        {
+            "id": "83",
+            "prompt": "Photographed by Sony SLT-A99",
+            "name": "Sony 數位相機",
+            "description": ""
+        },
+        {
+            "id": "84",
+            "prompt": "Photographed by Sony DSLR-A100",
+            "name": "Sony 數位相機",
+            "description": ""
+        },
+        {
+            "id": "85",
+            "prompt": "Photographed by Sony DSLR-A850",
+            "name": "Sony 數位相機",
+            "description": ""
+        },
+        {
+            "id": "86",
+            "prompt": "Photographed by Sony ILCA-99M2",
+            "name": "Sony 數位相機",
+            "description": ""
+        },
+        {
+            "id": "87",
+            "prompt": "Photographed by Sony DSLR-A900",
+            "name": "Sony 數位相機",
+            "description": ""
+        },
+        {
+            "id": "88",
+            "prompt": "Photographed by Sony ILCE-7M3",
+            "name": "Sony 數位相機",
+            "description": ""
+        },
+        {
+            "id": "89",
+            "prompt": "Photographed by Sony ILCE-7CR",
+            "name": "Sony 數位相機",
+            "description": ""
+        },
+        {
+            "id": "90",
+            "prompt": "Photographed by Sony ILCE-7R",
+            "name": "Sony 數位相機",
+            "description": ""
+        }
+    ],
+    "其他相機": [
+        {
+            "id": "91",
+            "prompt": "Photographed by OLYMPUS",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "92",
+            "prompt": "Photographed by Hasselblad",
+            "name": "哈蘇",
+            "description": ""
         }
     ]
 }
