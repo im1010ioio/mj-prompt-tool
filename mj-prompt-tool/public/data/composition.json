@@ -64,7 +64,7 @@
             "id": "10",
             "prompt": "Figure to Ground",
             "name": "圖底關係",
-            "description": ""
+            "description": "透過「主體（Figure）」與「背景（Ground）」的對比來創造清晰的視覺層次和主題焦點"
         },
         {
             "id": "11",
@@ -82,7 +82,7 @@
             "id": "13",
             "prompt": "framing",
             "name": "框架構圖",
-            "description": ""
+            "description": "主體被框架框柱，如鏡子、門框、畫框等"
         },
         {
             "id": "14",
